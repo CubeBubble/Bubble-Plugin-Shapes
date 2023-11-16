@@ -1,0 +1,54 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 200
+    },
+    "display": "Custom Shape",
+    "fields": {
+        "AAD": {
+            "caption": "Type of shape",
+            "default_val": "custom",
+            "editor": "Dropdown",
+            "name": "type",
+            "options": "custom,circle,ellipse,triangle,pentagon,hexagon,star,dome",
+            "rank": 0
+        },
+        "AAH": {
+            "caption": "Custom shape vertices",
+            "default_val": "0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%",
+            "doc": "Each vertex is defined by a pair of arguments (length or percentage). Ex: 0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%",
+            "editor": "DynamicValue",
+            "name": "vertices",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Rotation angle",
+            "default_val": 0,
+            "editor": "DynamicValue",
+            "name": "rotate",
+            "optional": false,
+            "rank": 1,
+            "value": "number"
+        },
+        "AAJ": {
+            "caption": "If custom shape is selected, fill in vertices field.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 2
+        }
+    },
+    "icon": "ion-ios-crop-strong",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}

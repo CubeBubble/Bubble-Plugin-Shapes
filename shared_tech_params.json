@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "alpha_opt_in": true,
+        "plugin_api_version": "4",
+        "use_jquery": false
+    }
+}

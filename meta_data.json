@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical"
+    },
+    "demo_page": "https://cube-showroom.bubbleapps.io/shapes",
+    "description": "Create custom shapes (circle, ellipse, polygons, ...) to enhance the design of your Bubble apps.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1600352648018x311484246698775040/shapes.png",
+    "license": "open_source",
+    "name": "Shapes",
+    "plugin_instructions": "Add the Custom Shape element to your Bubble App and start customizing it with shape and color.\n\nYou can generate custom polygons on https://bennettfeely.com/clippy/\n\n/!\\ Note that preview and actual rendering are not the same.",
+    "sa_node_version": 18
+}
